@@ -30,3 +30,20 @@
     transform: rotate(360deg);
   }
 }
+main{
+  border: 1px solid red;
+  padding:10px;
+  border-radius: 5px;
+}
+.color-picker-box span{
+  display:inline-block;
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+  cursor: pointer;
+
+}
+.active{
+ border: 2px solid #282c34; 
+ box-shadow: 2px 2px 2px #888888;
+}
